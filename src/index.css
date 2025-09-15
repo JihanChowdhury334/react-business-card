@@ -1,0 +1,79 @@
+*{
+  font-family: Inter, sans-serif;
+  color: #FFFFFF;
+}
+
+main{
+  padding-top: 10px;
+  height: 399px;
+  width: 317px;
+  background-color: #1A1B21;
+}
+
+h1{
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  color: #F3BF99;
+}
+
+body{
+  display: flex;
+  background-color: #23252C;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #161619;
+}
+
+h4{
+  text-align: center;
+}
+
+.emli{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.email{
+  background-color: black;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.linkedin{
+  background-color: blue;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.image {
+  height: 250px;                   /* or use aspect-ratio for responsiveness */
+  background-image: url(/lebron.png);
+  background-size: cover;          /* fills div, may crop */
+  background-position: center;     /* keeps him centered */
+  background-repeat: no-repeat;
+}
+
+.image img {
+  height: auto;
+}
+
+h1 {
+  margin: 0;
+}
+
+.card{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  overflow: hidden;
+}
